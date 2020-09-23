@@ -7,7 +7,7 @@ def get_useremail():
             service=['gmail','outlook','yahoo']
             count=0
             for i in service:
-                if i in useremail:
+                if i+".com" in useremail:
                     return useremail,i
                 
 
